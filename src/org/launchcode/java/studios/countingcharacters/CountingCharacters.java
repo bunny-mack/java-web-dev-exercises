@@ -11,7 +11,15 @@ public class CountingCharacters {
 
         String str = input.nextLine().toLowerCase();
 
-        int count = 0;
+        //Attempt to remove non-alpha
+//        String alpha = "abcdefghijklmnopqrstuvwxyz";
+//        for (int j = 0; j < str.length(); j++) {
+//            if (alpha.contains(str[j]) {
+//                ArrayList newStr = str.contains(j)
+//            }
+//        }
+        //End attempt
+
         HashMap<Character, Integer> finalCounts = new HashMap<>();
 
         for (int i = 0; i < str.length(); i++) {
@@ -24,7 +32,7 @@ public class CountingCharacters {
         }
 
         for (Character key : finalCounts.keySet()) {
-            System.out.println(key + " " + finalCounts.get(key));
+            System.out.println(key + ": " + finalCounts.get(key));
         }
 
 

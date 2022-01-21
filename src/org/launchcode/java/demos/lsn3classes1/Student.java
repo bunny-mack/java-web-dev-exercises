@@ -111,5 +111,13 @@ public class Student {
                 ", gpa=" + gpa +
                 '}';
     }
+
+    //JAVA TEMPLATE LITERAL STAND IN
+//    @Override
+//    public String toString(){
+//       String studentReport = String.format("%s is a %s with %d credits and a GPA of %.2f", this.name, this.getGradeLevel(this.numberOfCredits), this.getNumberOfCredits(), this.getGpa());
+//    return studentReport;
+//       //s = string, d=digit, f = float
+//   }
 }
 

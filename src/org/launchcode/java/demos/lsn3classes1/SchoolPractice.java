@@ -8,5 +8,8 @@ public class SchoolPractice {
     System.out.println(bunny.getStudentId());
     System.out.println(bunny.getNumberOfCredits());
     System.out.println(bunny.getGpa());
+    System.out.println(Student.getGradeLevel(100));
+    bunny.addGrade(16, 3.5);
+    System.out.println(bunny.getGpa());
     }
 }
